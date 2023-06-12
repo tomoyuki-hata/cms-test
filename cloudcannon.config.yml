@@ -1,3 +1,10 @@
+generator:
+  metadata:
+    markdown: kramdown
+    kramdown:
+      list_indent: 2
+
+
 # Read the CloudCannon documentation for more information on how to use this file:
 # https://cloudcannon.com/documentation/articles/setting-global-configuration/?ssg=Hugo
 
