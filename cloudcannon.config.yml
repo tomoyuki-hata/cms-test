@@ -6,19 +6,11 @@
 # CloudCannon configuration specific to those collections.
 collections_config:
   pages:
-    output: true
-    filter: strict
-    parse_branch_index: true
-    path: content
-  categories:
-    path: content/categories
-    output: true
-  page:
-    path: content/page
-    output: true
+    _enabled_editors:
+      - visual
+      - content 
   post:
-    path: content/post
-    output: true
+    path: content/news
     _enabled_editors:
       - visual
       - content
