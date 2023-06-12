@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://tomoyuki-hata.github.io/cms-test/news/sustaitability/content/</loc>
+    <lastmod>2023-06-09T16:34:54+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://tomoyuki-hata.github.io/cms-test/news/chushajou/</loc>
+    <lastmod>2023-06-09T15:11:59+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://tomoyuki-hata.github.io/cms-test/news/qa/</loc>
+    <lastmod>2023-06-09T15:07:41+09:00</lastmod>
+  </url><url>
+    <loc>https://tomoyuki-hata.github.io/cms-test/news/</loc>
+    <lastmod>2023-06-09T15:05:36+09:00</lastmod>
+  </url><url>
+    <loc>https://tomoyuki-hata.github.io/cms-test/</loc>
+    <lastmod>2023-06-09T14:28:21+09:00</lastmod>
+  </url><url>
+    <loc>https://tomoyuki-hata.github.io/cms-test/about/</loc>
+    <lastmod>2023-06-09T13:38:14+09:00</lastmod>
+  </url><url>
+    <loc>https://tomoyuki-hata.github.io/cms-test/categories/</loc>
+  </url><url>
+    <loc>https://tomoyuki-hata.github.io/cms-test/tags/</loc>
   </url>
 </urlset>
