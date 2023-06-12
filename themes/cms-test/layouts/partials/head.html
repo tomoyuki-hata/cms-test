@@ -1,6 +1,12 @@
 <head>
     <meta charset="utf-8" />
     <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
-    <link rel="stylesheet" href="{{"/css/reset.css"|relURL }}">
-    <link rel="stylesheet" href="{{"/css/custom.css"|relURL }}">
+    <!-- <link rel="stylesheet" href="{{"/css/reset.css"|relURL }}">
+    <link rel="stylesheet" href="{{"/css/custom.css"|relURL }}"> -->
+
+    {{ $styles2 := resources.Get "css/reset.css" }}
+    <link rel="stylesheet" href="{{ $styles2.RelPermalink }}">
+
+    {{ $styles := resources.Get "css/custom.css" }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 </head>
